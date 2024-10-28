@@ -42,3 +42,86 @@ header {
     display: grid;
     grid-template-columns: auto auto;
 }
+
+.header-content {
+    text-align: center;
+    background-color: rgba(52, 58, 64, 0.9);
+    padding-bottom: 200px;
+    color: #fff;
+    padding-top: 100px;
+}
+
+.header-content h1 {
+    font-size: 3rem;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.header-content p {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.section1 h1 {
+    color: #F69314;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.section1 i {
+    color: #F69314;
+    font-size: 1.6em;
+}
+
+.grid1 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.section2 {
+    margin: 50px;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: auto auto; 
+    text-align: center;
+}
+
+.grid2 p{
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+.gridItem {
+    text-align: center;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    font-size: 1.2rem;
+}
+
+.section1 {
+   color: #777777;
+   max-width: 1140px;
+   margin: 0 auto;
+}
+
+.grid3 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #777777;
+    margin-top: 50px;
+    font-size: 1em;
+}
+
+.top {
+    font-size: 1.2em;
+}
