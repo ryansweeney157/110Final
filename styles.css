@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.logo h1 {
+    margin-left: 25%;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #999;
+}
+
+.navigation a.active {
+    color: white; 
+
+}
+
+.navbar {
+    margin-top: 10px;
+    margin-right: 25%;
+}
+
+header {
+    background-color: rgba(52, 58, 64, 0.9);
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #999;
+}
+
+.headernav {
+    display: grid;
+    grid-template-columns: auto auto;
+}
