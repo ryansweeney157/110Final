@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+
+*:not(.slick-track):not(.slick-list) {
+    transition: 0.4s;
+}
+
 .logo h1 {
     margin-left: 25%;
 }
@@ -457,6 +462,7 @@ header.scrolled .active {
 
 #contact {
     background-color: #f8f9fa;
+    padding-bottom: 6em;
 }
 
 .ContactContainer {
@@ -465,6 +471,7 @@ header.scrolled .active {
     justify-content:space-between;
     width: 80%;
     margin: 0 auto;
+    
 }
 
 .ContactLeft {
@@ -557,4 +564,94 @@ input, label {
     }
 
 
+}
+
+footer {
+    background-color: #333333;
+    color: #777;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+.column3 input {
+    background-color: transparent;
+    color: #777;
+    margin-left: 0;
+    width: 70%;
+    border: 1px solid #6c757d;
+    padding: 13px;
+    margin-top: 20px;
+}
+footer h3 {
+    color: #fff;
+}
+
+.footer-btn {
+    padding: 14px;
+    background-color: #F69314;
+    color: #000;
+    margin-left: -60px;
+    width: 100px;
+    border: none;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    cursor: pointer;
+
+}
+
+.footer-btn:hover {
+    background-color: #fff;
+}
+footer p {
+    line-height: 1.3em;
+    font-size: 1.1em;
+}
+
+.footer-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.column1 {
+    width: 40%;
+
+}
+
+.column1 h3, p {
+    margin: 0 auto;
+    width: 60%;
+
+}
+
+
+.column2 li {
+    list-style-type: none;
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+.column2 h3 {
+    top: 0;
+    margin-top: 0;
+    
+}
+
+.Socials {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 25%;
+
+}
+
+.column2 {
+    width: 15%;
+
+}
+
+.column3 {
+    width: 40%;
 }
