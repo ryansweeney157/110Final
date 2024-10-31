@@ -46,3 +46,12 @@ $(function () {
         ]
     }); // Closing parenthesis added here
 }); // Added closing parenthesis for the document ready function
+
+
+$('#testimonials-slider').slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    prevArrow: '<a href="#" class="slick-arrow slick-prev"><</a>',
+    nextArrow: '<a href="#" class="slick-arrow slick-next">></a>'
+});
