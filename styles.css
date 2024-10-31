@@ -355,6 +355,9 @@ header.scrolled .active {
     padding: 20px;
     box-sizing: border-box;
     color: #777777;
+    display: flex;
+    flex-direction: row;
+
 }
 
 .serviceItem h3 {
@@ -366,6 +369,25 @@ header.scrolled .active {
 .serviceItem p {
     line-height: 1.5em;
     font-size: 1.05em;
+    margin-bottom: 20px;
+}
+
+
+#services i {
+    color:#F69314;
+    font-size: 2em;
+    margin-right: 10px;
+}
+
+.serviceLink {
+    color: #F69314;
+    text-decoration: none;
+}
+
+.serviceLink:hover {
+    text-decoration: underline;
+    
+    
 }
 @media (max-width: 768px) { 
     .box { 
@@ -385,5 +407,6 @@ header.scrolled .active {
         font-size: .9em;
         line-height: 1.3em;
     }
+
 
 }
