@@ -459,6 +459,83 @@ header.scrolled .active {
     background-color: #f8f9fa;
 }
 
+.ContactContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.ContactLeft {
+    background-color: white;
+    width: 55%;
+}
+
+label {
+    display: block;
+}
+
+input {
+    width: 90%;
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: 20px;
+    border: 1px solid #ced4da;
+
+}
+
+input, label {
+    margin-left: 30px;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+}
+.info {
+    background-color: white;
+    width: 40%;
+    height: 300px;
+}
+
+.form-btn {
+    display: block;
+    background-color: #F69314;
+    color: white;
+    margin-left: 30px;
+    padding: 12px;
+    border-radius: 30px;
+    border: none;
+    font-size: 1em;
+    width: 175px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.info h4 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #777777;
+    font-size: 1.2em;
+    margin-left: 10px;
+
+}
+
+.info a {
+    color: #F69314;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.info p {
+    color: #777777;
+    margin-left: 10px;
+}
+#message {
+    height: 170px;
+    border: 1px solid #ced4da;
+    width: 90%;
+    border-radius: 20px;
+    margin-left: 30px;
+}
 
 @media (max-width: 768px) { 
     .box { 
