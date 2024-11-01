@@ -55,3 +55,14 @@ $('#testimonials-slider').slick({
     prevArrow: '<a href="#" class="slick-arrow slick-prev"><</a>',
     nextArrow: '<a href="#" class="slick-arrow slick-next">></a>'
 });
+
+/* JavaScript */
+document.getElementById('hamburger').addEventListener('click', function() {
+    document.getElementById('sidebar').classList.toggle('open');
+    document.getElementById('sidebar').classList.toggle('hidden');
+});
+
+document.getElementById('closeBtn').addEventListener('click', function() {
+    document.getElementById('sidebar').classList.remove('open');
+    document.getElementById('sidebar').classList.add('hidden');
+});
